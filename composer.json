@@ -1,0 +1,18 @@
+{
+    "name": "josdeboss/phpstan-missing-json-serialize-returntype",
+    "description": "A dummy project that reproduces a PHPStan-bug where missing return types for jsonSerialize() are not reported when php-parallel-lint/php-parallel-lint is installed.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jos van den Bos"
+        }
+    ],
+    "require": {
+        "php": "~8.4"
+    }
+}
