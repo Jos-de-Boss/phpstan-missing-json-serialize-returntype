@@ -15,5 +15,11 @@
     "require": {
         "php": "~8.4",
         "ext-json": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1"
+    },
+    "scripts": {
+        "phpstan": "@php vendor/bin/phpstan analyse src"
     }
 }
